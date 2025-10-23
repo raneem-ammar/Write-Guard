@@ -8,7 +8,7 @@
 **Professor Ashraf Hafez Badawi**  
 Zewail City of Science and Technology and Innovation  
 Computational Science and Artificial Intelligence  
-Email: abadawi@zewailcity.edu.eg
+Email: [abadawi@zewailcity.edu.eg](mailto:abadawi@zewailcity.edu.eg)
 
 **Programs:**  
 - Information Technology (Networks, Security, and Governance)  
@@ -20,14 +20,14 @@ Email: abadawi@zewailcity.edu.eg
 ---
 
 ## Team Members
--------------------------------------------------------------------------------
-|         Name       |     ID    |              Email                 | Program |
-|--------------------|-----------|------------------------------------|
-| Raneem Tamer Ammar | 202200956 |  s-raneem.ammar@zewailcity.edu.eg  |  ITNS   |
-| Mariam Mohamed Goda| 202201223 |  s-mariam.goda@zewailcity.edu.eg   |  DSAI   |
-| Nosyba Mohamed     | 202201717 |  s-nosyba.mohamed@zewailcity.edu.eg|  DSAI   |
-| Tasneim Amged      | 202201968 |  s-tasneim.el-din@zewailcity.edu.eg|  DSAI   |
---------------------------------------------
+
+| Name | ID | Email | Program |
+|------|----|--------|---------|
+| Raneem Tamer Ammar | 202200956 | [s-raneem.ammar@zewailcity.edu.eg](mailto:s-raneem.ammar@zewailcity.edu.eg) | ITNS |
+| Mariam Mohamed Goda | 202201223 | [s-mariam.goda@zewailcity.edu.eg](mailto:s-mariam.goda@zewailcity.edu.eg) | DSAI |
+| Nosyba Mohamed | 202201717 | [s-nosyba.mohamed@zewailcity.edu.eg](mailto:s-nosyba.mohamed@zewailcity.edu.eg) | DSAI |
+| Tasneim Amged | 202201968 | [s-tasneim.el-din@zewailcity.edu.eg](mailto:s-tasneim.el-din@zewailcity.edu.eg) | DSAI |
+
 
 
 ## Abstract
