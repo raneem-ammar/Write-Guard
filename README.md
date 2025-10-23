@@ -29,6 +29,7 @@ Email: [abadawi@zewailcity.edu.eg](mailto:abadawi@zewailcity.edu.eg)
 | Tasneim Amged | 202201968 | [s-tasneim.el-din@zewailcity.edu.eg](mailto:s-tasneim.el-din@zewailcity.edu.eg) | DSAI |
 
 
+---
 
 ## Abstract
 The rapid integration of AI tools like ChatGPT, Claude, and Gemini has created significant challenges for academic institutions in maintaining integrity within student writing. Traditional plagiarism detection systems only evaluate final text submissions and fail to capture AI-assisted writing processes.  
