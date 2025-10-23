@@ -6,8 +6,9 @@
 
 ## Supervisor
 **Professor Ashraf Hafez Badawi**  
-Zewail City of Science and Technology  
+Zewail City of Science and Technology and Innovation  
 Computational Science and Artificial Intelligence  
+Email: abadawi@zewailcity.edu.eg
 
 **Programs:**  
 - Information Technology (Networks, Security, and Governance)  
@@ -19,13 +20,13 @@ Computational Science and Artificial Intelligence
 ---
 
 ## Team Members
---------------------------------------------
-|         Name       |     ID    | Program |
-|--------------------|-----------|---------|
-| Raneem Tamer Ammar | 202200956 |  ITNS   |
-| Mariam Mohamed Goda| 202201223 |  DSAI   |
-| Nosyba Mohamed     | 202201717 |  DSAI   |
-| Tasneim Amged      | 202201968 |  DSAI   |
+-------------------------------------------------------------------------------
+|         Name       |     ID    |              Email                 | Program |
+|--------------------|-----------|------------------------------------|
+| Raneem Tamer Ammar | 202200956 |  s-raneem.ammar@zewailcity.edu.eg  |  ITNS   |
+| Mariam Mohamed Goda| 202201223 |  s-mariam.goda@zewailcity.edu.eg   |  DSAI   |
+| Nosyba Mohamed     | 202201717 |  s-nosyba.mohamed@zewailcity.edu.eg|  DSAI   |
+| Tasneim Amged      | 202201968 |  s-tasneim.el-din@zewailcity.edu.eg|  DSAI   |
 --------------------------------------------
 
 
