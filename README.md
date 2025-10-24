@@ -1,13 +1,13 @@
-# 🧠 CSAI 498 / CSAI 499 – Graduation Project Proposal
+#  CSAI 498 / CSAI 499 – Graduation Project Proposal
 
-## 📘 Project Title
+##  Project Title
 **WriteGuard: A Process-Based Academic Integrity Assistant for Online Document Collaboration**
 
 **GitHub Repository:** [https://github.com/raneem-ammar/Write-Guard.git](https://github.com/raneem-ammar/Write-Guard.git)
 
 ---
 
-## 👨‍🏫 Supervisor
+##  Supervisor
 **Professor. Ashraf Hafez Badawi**  
 Zewail City of Science and Technology and Innovation  
 Computational Science and Artificial Intelligence  
@@ -22,7 +22,7 @@ Computational Science and Artificial Intelligence
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 | Name | ID | Email | Program |
 |------|----|--------|----------|
@@ -33,7 +33,7 @@ Computational Science and Artificial Intelligence
 
 ---
 
-## 🧾 Abstract
+##  Abstract
 The rapid integration of **Artificial Intelligence (AI)** tools such as ChatGPT, Claude, and Gemini has introduced significant challenges for academic institutions striving to uphold academic integrity in student writing. Traditional plagiarism detection systems are limited to analyzing the final submitted text, overlooking the writing process entirely.
 
 **WriteGuard** addresses this gap by providing a **real-time, process-based academic integrity monitoring system** integrated with online editors like **Google Docs**, **Microsoft Office 365**, and **Zoho Writer**. It captures **keystroke dynamics, typing velocity, copy-paste behavior, and AI-generated indicators** while preserving privacy via encryption and ethical data practices.
@@ -42,7 +42,7 @@ The backend engine analyzes this data to generate **visual integrity reports** t
 
 ---
 
-## ❗ Problem Statement & Motivation
+##  Problem Statement & Motivation
 The rise of **AI text generation tools** (e.g., ChatGPT, Claude, Gemini) has blurred the lines between genuine student effort and machine-generated work. Current plagiarism detectors only evaluate the *final text*, missing crucial insights from the writing process.
 
 This limitation poses a serious threat to **fair assessment** and **institutional credibility**, as undetected AI-generated content undermines trust in academic outcomes. The absence of **process-based verification** systems leaves universities vulnerable to integrity breaches.
@@ -51,24 +51,24 @@ Thus, there is a pressing need for a **transparent, process-aware, and privacy-r
 
 ---
 
-## 💡 Proposed Solution
+##  Proposed Solution
 **WriteGuard** is a browser-integrated academic integrity assistant designed for platforms like **Google Docs**, **Microsoft Office 365**, and **Zoho Writer**.
 
 Unlike traditional tools, it **records and analyzes the writing process** — including **keystroke dynamics, typing velocity, copy-paste activity**, and **AI-text signatures**. The system securely processes the data through an **AI-powered backend**, generating **interactive educator dashboards** with anomaly alerts.
 
-### 🔧 Core Functionalities
+###  Core Functionalities
 - **Keystroke Dynamics Monitoring:** Capture and analyze typing speed, rhythm, and pauses.  
 - **Copy-Paste Detection:** Identify abnormal paste activity.  
 - **AI Text Detection:** Flag potential AI-generated segments.  
 - **Behavioral Analysis:** Compare writing patterns against user baselines.  
 - **Reporting Dashboard:** Visual analytics and alerts for educators.
 
-### 💡 Innovation
+###  Innovation
 WriteGuard introduces **process-based verification**, transitioning from product-based plagiarism detection to **behavioral transparency** — ensuring evidence-backed authenticity and ethical AI detection.
 
 ---
 
-## 🎯 Project Scope
+##  Project Scope
 
 ### In Scope
 - Browser Extension (Google Docs, Office 365, Zoho Writer)  
@@ -90,7 +90,7 @@ WriteGuard introduces **process-based verification**, transitioning from product
 
 ---
 
-## ⏳ High-Level Timeline
+##  High-Level Timeline
 
 | Phase | Description | Duration (Weeks) | Deliverables |
 |-------|--------------|------------------|---------------|
@@ -101,7 +101,7 @@ WriteGuard introduces **process-based verification**, transitioning from product
 
 ---
 
-## 🧰 Technology Stack & Theoretical Basis
+##  Technology Stack & Theoretical Basis
 
 | Layer | Technologies | Program Focus | Purpose |
 |-------|---------------|----------------|----------|
@@ -113,7 +113,7 @@ WriteGuard introduces **process-based verification**, transitioning from product
 | **Deployment** | Docker, Nginx, Kubernetes | ITNS, SWD | Containerized deployment and scaling |
 | **Visualization** | Plotly Dash, Tableau | DSAI | Explainable AI dashboards and analytics |
 
-### ⚙️ Justification
+###  Justification
 - **React + Plasmo** enable maintainable and modular browser extensions.  
 - **FastAPI + Node.js** offer secure asynchronous communication.  
 - **PostgreSQL + MongoDB** provide flexibility for mixed data types.  
@@ -121,14 +121,14 @@ WriteGuard introduces **process-based verification**, transitioning from product
 - **Docker + Kubernetes** ensure scalability and reproducible environments.  
 - **OWASP + TLS/AES** frameworks enforce security and privacy.
 
-### 🧩 Program Focus
+###  Program Focus
 - **ITNS (Raneem):** Security, integration, encryption, deployment pipelines.  
 - **DSAI (Mariam, Nosyba, Tasneim):** AI model design, training, and visualization.  
 - **SWD (All):** Software architecture, modular development, clean design.
 
 ---
 
-## 📊 Success Metrics & Evaluation Plan
+##  Success Metrics & Evaluation Plan
 
 | Metric | Description | Evaluation Method |
 |---------|--------------|-------------------|
@@ -141,7 +141,7 @@ WriteGuard introduces **process-based verification**, transitioning from product
 
 ---
 
-## 👩‍💻 Team Roles & Responsibilities
+##  Team Roles & Responsibilities
 
 | Member | Program | Role | Contribution |
 |---------|----------|------|---------------|
@@ -150,7 +150,7 @@ WriteGuard introduces **process-based verification**, transitioning from product
 | **Nosyba Mohamed** | DSAI | ML Research Engineer | **Train and validate hybrid ML models (Random Forest, SVM), fuse temporal data, optimize Feature Importance Analysis, and deploy RESTful inference services using FastAPI or Flask.** **Deliverables:** Trained Models, Benchmark Report, REST API. |
 | **Mariam Mohamed Goda** | DSAI | Explainable NLP & Dashboard Developer | Transformer-based NLP, LIME/SHAP integration, educator dashboard. **Deliverables:** NLP/XAI Modules, Visualization Dashboards. |
 
-### 🤝 Shared Responsibilities
+###  Shared Responsibilities
 - Frontend UI & Dashboard Development  
 - RESTful API Integration  
 - GitHub Documentation & CI/CD  
@@ -158,14 +158,14 @@ WriteGuard introduces **process-based verification**, transitioning from product
 
 ---
 
-## 📡 Communication Plan
+##  Communication Plan
 - **Meetings:** Weekly syncs with supervisor  
 - **Tools:** Trello (tasks), GitHub (version control), Teams (communication)  
 - **Documentation:** GitHub Wiki + Biweekly Reports  
 
 ---
 
-## 📚 References
+##  References
 
 **[1]** T. Issa, R. Issa, and M. Isaias, “A teamwork framework for preventing breaches of academic integrity,” *Procedia – Social and Behavioral Sciences*, vol. XX, 2024. [Online]. Available: [https://www.sciencedirect.com/science/article/pii/S2405844024147901](https://www.sciencedirect.com/science/article/pii/S2405844024147901)
 
