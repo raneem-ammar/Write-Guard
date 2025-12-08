@@ -70,18 +70,51 @@ WriteGuard introduces **process-based verification**, transitioning from product
 
 ##  Project Scope
 
-### In Scope
-- Browser Extension (Google Docs, Office 365, Zoho Writer)  
-- Real-Time Keystroke & Clipboard Monitoring  
-- AI-Powered Behavioral and Linguistic Analysis  
-- Secure Backend (Encryption, Integrity Checks)  
-- Educator Dashboard with Analytics & Alerts  
-- GDPR and FERPA-Compliant Data Handling  
+### **In-Scope Activities**
 
-### Out of Scope
-- Offline Editors (e.g., Microsoft Word)  
-- LMS Integration (Moodle, Blackboard)  
-- Webcam or Biometric Proctoring  
+#### 1. Web Application Development
+A unified web platform is being built with role-based access for students, instructors, and academic integrity officers.  
+- **Students** use an embedded writing workspace that records typing behavior in real time.  
+- **Instructors** access a dashboard to review integrity reports, timelines, version histories, and document activity patterns.
+
+#### 2. Core Writing-Behavior Engine
+The engine records essential behavioral indicators including:  
+- Typing speed and rhythm  
+- Pauses and bursts of activity  
+- Copy–paste attempts  
+- Incremental text modifications  
+These signals are later reconstructed into a detailed timeline and associated with a secure, tamper-evident report.
+
+#### 3. Database & Storage Layer
+All document snapshots, event logs, metadata, and version histories are stored securely, ensuring transparency while preventing manipulation or data loss.
+
+#### 4. Survey-Driven System Refinement
+A structured survey with **61 participants** (professors, TAs, students, researchers, and academic integrity officers) informed our requirements. Their feedback emphasized:  
+- The rising frequency of AI-generated submissions  
+- Limitations of current plagiarism tools  
+- Concerns about privacy, fairness, and accuracy  
+These insights shaped the system’s architecture and data-handling policies.
+
+#### 5. Planned Future Phase
+After stabilizing the core platform, we will introduce more advanced AI detection modules:  
+- AI-generated text probability scoring  
+- Semantic similarity analysis  
+- Stylometric authorship verification  
+- Detection of hybrid (human + AI) writing behavior  
+
+---
+
+### **Out-of-Scope (Current Phase)**
+
+The following are intentionally excluded from the present development stage:
+
+- Full AI detection engine  
+- LMS integrations (Moodle, Blackboard, Canvas)  
+- Mobile applications  
+- Biometric or camera-based proctoring  
+- Offline desktop application (planned for later)
+
+---
 
 ### Assumptions & Limitations
 - Requires Internet Connectivity  
