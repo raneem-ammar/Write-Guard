@@ -101,25 +101,57 @@ WriteGuard introduces **process-based verification**, transitioning from product
 
 ---
 
-##  Technology Stack & Theoretical Basis
+## Technology Stack & Theoretical Basis
 
-| Layer | Technologies | Program Focus | Purpose |
-|-------|---------------|----------------|----------|
-| **Frontend** | JavaScript/TypeScript, React, Plasmo | DSAI, SWD | Build modular, responsive browser extension & dashboards |
-| **Backend** | Node.js (Express), Python (FastAPI) | ITNS, SWD | Real-time APIs for monitoring, AI inference, and dashboards |
-| **Database** | PostgreSQL, MongoDB | ITNS, SWD | Hybrid structured/unstructured storage for behavioral data |
-| **Machine Learning** | scikit-learn, PyTorch, Hugging Face | DSAI | AI-text detection, feature extraction, explainable AI |
-| **Security** | HashiCorp Vault, TLS 1.3, AES-256 | ITNS | Encryption, authentication, and data integrity |
-| **Deployment** | Docker, Nginx, Kubernetes | ITNS, SWD | Containerized deployment and scaling |
-| **Visualization** | Plotly Dash, Tableau | DSAI | Explainable AI dashboards and analytics |
+| Layer               | Technology                       | Language      | Program Focus        | Purpose                                                                 |
+|---------------------|-----------------------------------|---------------|-----------------------|-------------------------------------------------------------------------|
+| **Browser Extension** | React + Plasmo (MV3)              | TypeScript    | SWD, DSAI             | Secure typed implementation with Manifest V3 support for modular UI     |
+| **Frontend Dashboard** | React                              | TypeScript    | SWD, DSAI             | Build responsive dashboards for monitoring and analytics                |
+| **Backend API**       | NestJS                             | TypeScript    | ITNS, SWD             | Enterprise-grade APIs with strong security and clean architecture       |
+| **AI/ML Engine**      | FastAPI, PyTorch, scikit-learn, HuggingFace | Python | DSAI | NLP model hosting, AI inference, text detection, explainable AI         |
+| **Database**          | PostgreSQL                          | SQL           | ITNS, SWD             | ACID-compliant storage for structured/unstructured behavioral data      |
+| **Queue**             | Redis Streams                       | Redis script  | ITNS                  | Real-time event ingestion and message streaming                         |
+| **Security**          | HashiCorp Vault, TLS 1.3, AES-256   | N/A           | ITNS                  | Secrets management, authentication, encryption, and data integrity      |
+| **Reverse Proxy**     | Nginx                               | N/A           | ITNS                  | SSL termination, rate limiting, routing                                 |
+| **Deployment**        | Docker, Kubernetes                  | N/A           | ITNS, SWD             | Containerized deployment, scaling, and CI/CD integration                |
+| **Visualization**     | Plotly Dash, Tableau                | Python / N/A  | DSAI                  | Explainable AI dashboards and analytical reporting                      |
 
-###  Justification
-- **React + Plasmo** enable maintainable and modular browser extensions.  
-- **FastAPI + Node.js** offer secure asynchronous communication.  
-- **PostgreSQL + MongoDB** provide flexibility for mixed data types.  
-- **PyTorch + Transformers** support cutting-edge AI detection models.  
-- **Docker + Kubernetes** ensure scalability and reproducible environments.  
-- **OWASP + TLS/AES** frameworks enforce security and privacy.
+
+## Technology Justification
+
+- **React + Plasmo (MV3)**  
+  Enables secure, modular, and maintainable browser extensions with full Manifest V3 compliance and TypeScript type-safety.
+
+- **React Dashboard**  
+  Provides a mature UI ecosystem for building highly responsive, component-driven monitoring and analytics dashboards.
+
+- **NestJS (Backend API)**  
+  Offers enterprise-grade architecture, built-in security patterns, and scalable TypeScript-based backend services.
+
+- **FastAPI (AI/ML Engine)**  
+  Extremely fast Python framework ideal for hosting NLP pipelines, AI inference services, and academic-grade ML APIs.
+
+- **PostgreSQL (Primary Database)**  
+  ACID-compliant relational database ensuring data integrity, strong consistency, and structured storage for behavioral events.
+
+- **Redis Streams (Real-Time Queue)**  
+  Supports high-throughput event ingestion, streaming analytics, and decoupled backend processing.
+
+- **PyTorch + Transformers (AI Models)**  
+  Provide state-of-the-art deep learning capabilities, enabling robust text analysis, feature extraction, and explainable AI.
+
+- **Nginx (Reverse Proxy)**  
+  Handles SSL/TLS termination, rate limiting, request routing, and improves system security and performance.
+
+- **Docker + Kubernetes**  
+  Guarantee reproducible environments, scalable deployment, fault tolerance, and microservice orchestration.
+
+- **HashiCorp Vault + TLS 1.3 + AES-256**  
+  Enforce strict secrets management, secure communication, encryption standards, and Zero-Trust aligned security.
+
+- **OWASP Best Practices**  
+  Ensure code quality, vulnerability mitigation, and compliance with modern security requirements.
+
 
 ###  Program Focus
 - **ITNS (Raneem):** Security, integration, encryption, deployment pipelines.  
